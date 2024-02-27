@@ -1,1 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --light-color: #fff;
+    --black-color: #000;
+    --cyan-blue-color: #1ca4c9;
+
+}
+
+h1{
+    color : black;
+    font-family: "Poppins", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color : white;
+
+}
+
+/* picture sizing and borders: */
+.img-photo {
+    width: 500px;
+}
+.guitar {
+    width: 500px;
+}
+.flower{
+    width: 500px;
+}
+.wrack{
+    width: 500px;
+}
+.Logo{
+    width: 100px;
+}
+
+img {
+    border: 5px solid var(white);
+    padding: 0px;
+    
+}
+
+
+/*Button Logic: */
+/* button{
+    background: none;
+    border: none;
+} */
+
+.btn {
+    display: inline;
+    margin: 50px;
+    padding: 10px 20px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    color: white(209, 186, 186);
+}
+
+.btn:hover {
+    color: var(--cyan-blue-color);
+}
+
+.gradient {
+
+    height: 100vh;
+    background-color: black;
+    background-image: linear-gradient(black, white);
+    display: flex;
+    align-items: center;
+}
+
+.debug {
+    outline: solid red 2px;
+}
+
+.big-title {
+    text-align: center;
+    color: black;
+    width: 100%;
+}
+
+.btn-containter {
+    width: 25%;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+
+
+}
+
+.header-button {
+    margin: auto;
+    position: relative;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+
+}
+.header-button:hover{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
 
