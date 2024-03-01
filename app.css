@@ -102,8 +102,16 @@ img {
     top: 10px;
     left: 10px;
     display: flex;
+    overflow: hidden;
+    
+}
 
-
+.logo-pic{
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain; 
+    position: absolute; 
+    
 }
 .header-button {
     margin: auto;
@@ -117,8 +125,18 @@ img {
     color: red;
 }
 
+.gallary-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
-
+.gallary-container img {
+    margin: 10px; /* Adjust margin as needed */
+    max-width: calc(33.33% - 20px); /* Adjust image width based on desired spacing */
+    flex: 1 1 auto; /* Allow images to grow and shrink equally */
+}
 
 
 
